@@ -22,9 +22,20 @@ Different plots were made in order to gain meaningful insights from the cleaned 
 ![image](https://github.com/user-attachments/assets/bc6dae3f-eec1-4575-8303-739e7b03b079)
 
 - Flight Price Trends over time (month)
+
+![image](https://github.com/user-attachments/assets/bd8a6b37-2711-4d44-993e-5f6e038220d9)
+
 - Distribution of flight duration
+
+![image](https://github.com/user-attachments/assets/50e77921-55c9-4aa9-b74d-50116d2e920a)
+
 - Effect of total stops on flight price
+
+![image](https://github.com/user-attachments/assets/4cd3ec87-c6cd-43b8-9187-98b5201b83c8)
+
 - plotting depaarture time against flight price 
+
+![image](https://github.com/user-attachments/assets/590afc85-fd73-40ff-b8f1-3cd0e4cca56a)
 
 # Conclusion
 After training and tuning multiple models for flight price prediction, the Random Forest Regressor was selected for its optimal performance, achieving 96.25% accuracy on the training data and 78.34% on the test data. The model was successfully deployed using Flask, with a custom-built frontend for user interaction, allowing seamless flight price predictions based on input features.
