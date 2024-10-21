@@ -18,6 +18,9 @@ Before building the flight price prediction model, the dataset was cleaned and p
 # Visualiation 
 Different plots were made in order to gain meaningful insights from the cleaned data.
 - Flight Price Distribution by Airline
+
+![image](https://github.com/user-attachments/assets/bc6dae3f-eec1-4575-8303-739e7b03b079)
+
 - Flight Price Trends over time (month)
 - Distribution of flight duration
 - Effect of total stops on flight price
@@ -25,6 +28,7 @@ Different plots were made in order to gain meaningful insights from the cleaned 
 
 # Conclusion
 After training and tuning multiple models for flight price prediction, the Random Forest Regressor was selected for its optimal performance, achieving 96.25% accuracy on the training data and 78.34% on the test data. The model was successfully deployed using Flask, with a custom-built frontend for user interaction, allowing seamless flight price predictions based on input features.
+
 ![image](https://github.com/user-attachments/assets/491be902-781e-4c79-b7a1-e669f9c38351)
 
 Output
